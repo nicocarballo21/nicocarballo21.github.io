@@ -21,7 +21,8 @@
     "title": "About me",
     "greeting": "Hi",
     "content": "👋 I'm Nicolas Carballo. Frontend and web3 developer with +2 years of experience in web development. I worked on a couple of projects where I worked from creating UI with a wide variety of utilities to interacting with smart contracts and using the blockchain to obtain data for DEFI platforms.",
-    "place": "📍 I currently live in El Bolson, Argentina. A town in Argentine Patagonia within the Andes mountain range."
+    "place": "📍 I currently live in El Bolson, Argentina. A town in Argentine Patagonia within the Andes mountain range.",
+    "cv": "Download CV"
   },
   "projects": {
     "title": "Some code made by me"
@@ -89,6 +90,18 @@
   "experience": {
     "title": "Experience",
     "experiences": [
+      {
+        "company": "Globant - Professional practices",
+        "title": "Frontend developer",
+        "years": "08/2021 - 09/2021",
+        "mainTechIcon": "devicon:react-wordmark",
+        "technologies": [
+          "REST API",
+          "Typescript",
+          "React Native",
+          "Styled components"
+        ]
+      },
       {
         "company": "Spiritswap",
         "title": "Front-End Developer",

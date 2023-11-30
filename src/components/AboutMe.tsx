@@ -5,8 +5,8 @@ const AboutMe = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="py-5 dark:bg-[#7f7f7f] md:py-10">
-      <h2 className="text-center text-xl font-medium uppercase tracking-widest ">
+    <section className="py-5 dark:bg-[#7f7f7f] md:py-10" id="about-me">
+      <h2 className="mb-10 text-center text-xl font-medium uppercase tracking-widest ">
         {t("about_me.title")}
       </h2>
 
