@@ -1,0 +1,127 @@
+{
+  "basic_info": {
+    "name": "Nicolas Carballo",
+    "titles": ["Front-end Developer", "Web 3 Developer"],
+    "socials": [
+      {
+        "icon": "mdi:linkedin",
+        "url": "https://www.linkedin.com/in/nicolas-carballo"
+      },
+      {
+        "icon": "mdi:github",
+        "url": "https://github.com/nicocarballo21"
+      },
+      {
+        "icon": "mdi:twitter",
+        "url": "https://twitter.com/nicocarba13"
+      }
+    ]
+  },
+  "about_me": {
+    "title": "About me",
+    "greeting": "Hi",
+    "content": "👋 I'm Nicolas Carballo. Frontend and web3 developer with +2 years of experience in web development. I worked on a couple of projects where I worked from creating UI with a wide variety of utilities to interacting with smart contracts and using the blockchain to obtain data for DEFI platforms.",
+    "place": "📍 I currently live in El Bolson, Argentina. A town in Argentine Patagonia within the Andes mountain range."
+  },
+  "projects": {
+    "title": "Some code made by me"
+  },
+  "skills": {
+    "title": "Skills",
+    "icons": [
+      {
+        "name": "HTML 5",
+        "class": "devicon:html5-wordmark",
+        "level": "95"
+      },
+      {
+        "name": "React",
+        "class": "devicon:react-wordmark",
+        "level": "80"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon:css3-wordmark",
+        "level": "95"
+      },
+      {
+        "name": "TypeScript",
+        "class": "devicon:typescript",
+        "level": "90"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon:javascript",
+        "level": "70"
+      },
+      {
+        "class": "devicon:nextjs-wordmark",
+        "name": "Next.js",
+        "level": "80"
+      },
+      {
+        "name": "Tailwind",
+        "class": "devicon:tailwindcss",
+        "level": "85"
+      },
+      {
+        "name": "Node.js",
+        "class": "devicon:nodejs",
+        "level": "60"
+      },
+      {
+        "class": "devicon:cypressio-wordmark",
+        "name": "Cypress",
+        "level": "70"
+      },
+      {
+        "class": "devicon:express-wordmark",
+        "name": "Express",
+        "level": "60"
+      },
+      {
+        "class": "devicon:git-wordmark",
+        "name": "Git",
+        "level": "80"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "experiences": [
+      {
+        "company": "Spiritswap",
+        "title": "Front-End Developer",
+        "years": "09/2021 - 09/2022",
+        "mainTechIcon": "devicon:react-wordmark",
+        "technologies": [
+          "REST API",
+          "Typescript",
+          "Styled components",
+          "React",
+          "Ethers.js",
+          "Web3.js",
+          "Redux",
+          "Chakra UI"
+        ]
+      },
+      {
+        "company": "Layer3",
+        "mainTechIcon": "devicon:react-wordmark",
+        "title": "Frontend | web3 developer",
+        "years": "10/2022 - 10/2023",
+        "technologies": [
+          "React",
+          "Typescript",
+          "Tailwind CSS",
+          "Express",
+          "Jest",
+          "REST API",
+          "Ethers.js",
+          "Web3.js",
+          "Redux"
+        ]
+      }
+    ]
+  }
+}
