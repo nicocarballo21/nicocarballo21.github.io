@@ -52,7 +52,7 @@ const Experience = () => {
           </VerticalTimelineElement>
         ))}
         <VerticalTimelineElement
-          iconClassName="bg-[#AE944F] text-white"
+          iconClassName="bg-[#AE954F] text-white"
           icon={<Icon icon="eos-icons:hourglass" />}
         />
       </VerticalTimeline>
