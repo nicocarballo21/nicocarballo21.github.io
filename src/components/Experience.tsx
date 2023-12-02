@@ -10,16 +10,14 @@ interface BadgeProps {
 }
 
 const Badge = ({ text }: BadgeProps) => (
-  <span className="rounded-xl bg-yellow px-[5px] py-[2px] text-sm dark:bg-[#919191] dark:text-white">
-    {text}
-  </span>
+  <span className="rounded-xl bg-yellow px-[5px] py-[2px] text-sm">{text}</span>
 );
 
 const Experience = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="bg-yellow px-3 py-10 pb-20 dark:bg-[#494949] md:px-0">
+    <section className="bg-yellow px-3 py-10 pb-20  md:px-0">
       <h2 className="py-10 text-center text-xl font-medium uppercase tracking-widest text-white">
         {t("experience.title")}
       </h2>
@@ -29,17 +27,24 @@ const Experience = () => {
           <VerticalTimelineElement
             key={exp.title}
             date={exp.years}
-            dateClassName="dark:text-white"
-            iconClassName="bg-[#ffff] text-white dark:bg-[#ffff]"
+            iconClassName="bg-[#ffff] text-white"
             icon={<Icon icon={exp.mainTechIcon} />}
-            className="dark:brightness-80 dark:filter"
           >
-            {/* <Badge text={exp.mainTech} /> */}
-            <h3 className="text-lg font-bold">~ {exp.company} ~</h3>
+            <h3 className="text-lg font-bold">{exp.company}</h3>
 
-            <h4 className="text-md font-bold">{exp.title}</h4>
+            <h4 className="text-md font-bold"> As: {exp.title}</h4>
 
-            <div className="mt-2 flex flex-wrap gap-2">
+            <p className="my-5 text-sm">{exp.description}</p>
+
+            <button
+              onClick={() => window.open(exp.url, "_blank")}
+              className="text-md mt-5 flex items-center gap-2"
+            >
+              Website:
+              <a className="hover:text-yellow"> {exp.url}</a>
+            </button>
+
+            <div className="mt-5 flex flex-wrap gap-2">
               {exp.technologies.map((tech) => (
                 <Badge key={tech} text={tech} />
               ))}
@@ -47,7 +52,7 @@ const Experience = () => {
           </VerticalTimelineElement>
         ))}
         <VerticalTimelineElement
-          iconClassName="bg-[#AE944F] text-white dark:bg-[#919191]"
+          iconClassName="bg-[#AE944F] text-white"
           icon={<Icon icon="eos-icons:hourglass" />}
         />
       </VerticalTimeline>

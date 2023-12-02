@@ -14,7 +14,7 @@ const Skills = () => {
         {t("skills.icons", { returnObjects: true }).map((skill) => (
           <li
             key={skill.name}
-            className="flex h-[84px] w-[100px] flex-col items-center justify-center rounded-[8px] bg-[#827f7f] p-[5x] text-white"
+            className="flex h-[84px] w-[100px] flex-col items-center justify-center rounded-[8px] bg-[#827f7f] p-[5x] text-white transition-all hover:scale-150 "
           >
             <Icon
               icon={skill.class}

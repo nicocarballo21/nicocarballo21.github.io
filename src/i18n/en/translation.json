@@ -93,8 +93,10 @@
       {
         "company": "Globant - Professional practices",
         "title": "Frontend developer",
+        "url": "https://github.com/nicocarballo21/Globant-project",
         "years": "08/2021 - 09/2021",
         "mainTechIcon": "devicon:react-wordmark",
+        "description": "Professional project with Globant where an application was created from scratch in react native with the aim of uniting mentors and people who want to learn with mentors",
         "technologies": [
           "REST API",
           "Typescript",
@@ -103,10 +105,12 @@
         ]
       },
       {
-        "company": "Spiritswap",
+        "company": "Spiritswap DEFI",
         "title": "Front-End Developer",
         "years": "09/2021 - 09/2022",
         "mainTechIcon": "devicon:react-wordmark",
+        "url": "https://www.spiritswap.finance",
+        "description": "Spiritswap is a decentralized exchange (DEX) and automated market maker (AMM) that operates on Fantom network.",
         "technologies": [
           "REST API",
           "Typescript",
@@ -120,7 +124,9 @@
       },
       {
         "company": "Layer3",
+        "url": "https://www.linkedin.com/company/layer-3/",
         "mainTechIcon": "devicon:react-wordmark",
+        "description": "Layer3 is a research and development shop focused on Web3 building, consulting and investing.",
         "title": "Frontend | web3 developer",
         "years": "10/2022 - 10/2023",
         "technologies": [

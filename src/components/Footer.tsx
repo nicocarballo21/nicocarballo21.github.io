@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="flex justify-center gap-5">
         {t("basic_info.socials", { returnObjects: true }).map((social) => (
           <a key={social.icon} href={social.url}>
-            <Icon icon={social.icon} width="22px" />
+            <Icon icon={social.icon} width="40px" />
           </a>
         ))}
       </div>
