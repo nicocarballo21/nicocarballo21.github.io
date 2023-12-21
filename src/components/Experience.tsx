@@ -36,13 +36,15 @@ const Experience = () => {
 
             <p className="my-5 text-sm">{exp.description}</p>
 
-            <button
-              onClick={() => window.open(exp.url, "_blank")}
-              className="text-md mt-5 flex items-center gap-2"
-            >
+            <span className="items-centers flex w-full gap-1 py-2">
               Website:
-              <a className="hover:text-yellow"> {exp.url}</a>
-            </button>
+              <a
+                onClick={() => window.open(exp.url, "_blank")}
+                className="text-wrap text-[blue] underline"
+              >
+                See here
+              </a>
+            </span>
 
             <div className="mt-5 flex flex-wrap gap-2">
               {exp.technologies.map((tech) => (
