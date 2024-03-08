@@ -26,7 +26,6 @@ const AboutMe = () => {
                 lineHeight: "200%",
               }}
             >
-              <br />
               <span className="text-xl font-medium">
                 {t("about_me.greeting")} :){" "}
               </span>

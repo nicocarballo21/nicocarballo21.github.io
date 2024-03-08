@@ -25,7 +25,7 @@ const Experience = () => {
       <VerticalTimeline>
         {t("experience.experiences", { returnObjects: true }).map((exp) => (
           <VerticalTimelineElement
-            key={exp.title}
+            key={Math.random()}
             date={exp.years}
             iconClassName="bg-[#ffff] text-white"
             icon={<Icon icon={exp.mainTechIcon} />}

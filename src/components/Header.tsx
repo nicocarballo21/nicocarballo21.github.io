@@ -70,7 +70,7 @@ const Header = () => {
               className="rounded-3xl border p-4 transition-all hover:bg-gray-light "
               onClick={() => {
                 window.open(
-                  "https://drive.usercontent.google.com/download?id=1_Jnbgrso0NwbgJQjpioBEcSkx61-tGY_&export=download&authuser=0&confirm=t&uuid=78316ec9-9f81-4e90-8f8f-8a73bc421657&at=APZUnTWlM-9nURsrWHqP3fXjMu7-:1701369568658",
+                  "https://drive.google.com/file/d/1cts9CjH3b4gQyI4pqWgBA5CUtfxAMvgS/view?usp=drive_link",
                   "_blank",
                 );
               }}

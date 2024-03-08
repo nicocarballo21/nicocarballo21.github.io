@@ -140,6 +140,22 @@
           "Web3.js",
           "Redux"
         ]
+      },
+      {
+        "company": "Freelance Jobs",
+        "url": "sd",
+        "mainTechIcon": "devicon:react-wordmark",
+        "description": "Trabajos freelance en los cuales se desarrollo aplicaciones web y web3",
+        "title": "Frontend | web3 developer",
+        "years": "11/2023 - current",
+        "technologies": [
+          "React",
+          "Typescript",
+          "Tailwind CSS",
+          "REST API",
+          "Ethers.js",
+          "Zustand"
+        ]
       }
     ]
   }
